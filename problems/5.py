@@ -14,8 +14,8 @@ class Solution:
             return list(s)
 
         substrings = []
-        for i, _ in enumerate(s[:-r + 1]):
-            substrings.append(s[i:i + r])
+        for i, _ in enumerate(s[: -r + 1]):
+            substrings.append(s[i : i + r])
         return substrings
 
     def find_palindromes(self, s: str):

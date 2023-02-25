@@ -10,7 +10,7 @@ class ListNode:
 class Solution:
     @staticmethod
     def node_to_int(list_node: ListNode) -> int:
-        str_node = ''
+        str_node = ""
         while True:
             str_node += str(list_node.val)
             list_node = list_node.next
